@@ -1,0 +1,25 @@
+@{
+    ViewData["Tittle"]="Login Page";
+}
+<div class ="row">
+    <div class="col-md-6">
+        <div>
+      <img src="/images/login.jpg" width="200" />
+    </div>
+   
+    </div>
+    <div class="col-md-6">
+    <div>
+    <form method="post">
+        <div class="form-group">
+            <label for="email">User Name :</label>
+            <input type="text" name="username" class="form-control" id="username"/>
+        </div>
+        <div class ="form-group">
+            <label for ="pwd">Password : </label>
+            <input type="password" class="form-control" name="password" id="password"/>
+
+        </div>
+        <button type="submit" class="btn btn-default">Login</button>
+    </form>
+</div>
